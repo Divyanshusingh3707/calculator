@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar">
+
+        <ul class="nav-option">
+            <li ><img src="images/sv_fashion-removebg-preview.png" alt="" ></li>
+            <li>
+                <h2 style="font-size: 2.5rem; text-align: center;">SV Fashions</h2>
+            </li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#mensop">Men</a></li>
+            <li><a href="#womenop">Women</a></li>
+            <li><a href="#kidsop">Kids</a></li>
+            <li><a href="#newarrivals">New Arrivals</a></li>
+
+        </ul>
+        <input class="search-input" type="text" placeholder="search product">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        
+
+        <ul class="nav-option-2">
+            <li><i class="fa-solid fa-cart-shopping"></i> Cart</li>
+            <li class="login"><a href="#">Login</a></li>
+            <li class="signup"><a href="#">Sign Up</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Home Page -->
+     <div class="Home" id="home">
+        <section class="home">
+        <div class="slider">
+            <div class="slides" id="slides">
+                <div class="slide slide1"></div>
+                <div class="slide slide2">WOMEN FASHION</div>
+                <div class="slide slide3"></div>
+                <div class="slide slide4"></div>
+            </div>
+
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+
+    <div class="home-content">
+        <h1>Welcome to <span class="blink">SV Fashions</span></h1>
+        <h2>Redefining Fashion Everyday</h2>
+        <p>
+            At <strong>SV FASHION</strong>, we believe that clothing is more than just fabric –
+            it’s a way to express your personality, confidence, and lifestyle.
+            Our mission is to bring you the latest trends in fashion while keeping comfort
+            and quality at the heart of everything we create.
+        </p>
+        <p>
+            Whether you’re looking for <em>casual wear, stylish office outfits, or glamorous evening looks</em>,
+            we’ve got something for every occasion. Explore our collection and discover fashion that speaks to you.
+        </p>
+        <button class="shop-btn">Shop Now</button>
+    </div>
+     </div>
+    
+
+    <!-- Mens section -->
+    <section class="mens" id="mensop">
+        <h2>Men's Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./images/shirt.png" alt="Men's Product 1" style="width: 239px; height: 400px;">
+                <h3>Symbol Premium
+                    Men's Stylish Solid All Day Fresh Buttondown Casual Shirt -</h3>
+                <p>₹1,399 M.R.P: <del>₹2,299</del> (39% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/tshirt.png" alt="Men's Product 2" style="width: 239px; height: 400px;">
+                <h3>Lymio
+                    Men T-Shirt || T-Shirt for Men || Polo T Shirt || Polo T-Shirt for men </h3>
+                <p>₹1,169 M.R.P: <del>₹2,999</del> (39% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/pants.png" alt="Men's Product 3" style="width: 239px; height: 400px;">
+                <h3>Peter England
+                    Men's Slim Fit Mid || Rise Super Chino Casual || Trouser</h3>
+                <p>₹1,169 M.R.P: </del>₹1,999</del> (42% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-grid-2">
+            <div class="product-card">
+                <img src="./images/jackets.png" alt="Men's Product 1" style="width: 239px; height: 400px;">
+                <h3>Boldfit
+                    Jacket For Men Winter Wear Puffer Standard Length Jacket</h3>
+                <p>₹1,799 M.R.P: </del>₹3,999</del>
+                    (55% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/cargopants.png" alt="Men's Product 2" style="width: 239px; height: 400px;">
+                <h3>Lymio
+                    Men Cargo || Men Cargo Pants Cotton || Casual Cargos Pant</h3>
+                <p>₹799 M.R.P: </del>₹4,999</del>
+                    (84% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/hoddie.png" alt="Men's Product 3" style="width: 239px; height: 400px;">
+                <h3>ADRO
+                    Men's 100% Cotton Hooded Sweatshirt || hoddie for men</h3>
+                <p>₹949 M.R.P: </del>₹2,799</del>
+                    (66% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- women section -->
+    <section class="womens" id="womenop">
+        <h2>Women's Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./images/maxi.png" alt="Women's Product 1" style="width: 250px; height: 450px;">
+                <h3>Elegant Floral Print Maxi Dress</h3>
+                <p>₹1,999 M.R.P: <del>₹3,499</del> (43% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/top.png" alt="Women's Product 2" style="width: 250px; height: 450px;">
+                <h3>Casual Striped Cotton Top</h3>
+                <p>₹899 M.R.P: <del>₹1,499</del> (40% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/skirt.png" alt="Women's Product 3" style="width: 250px; height: 450px;">
+                <h3>Denim A-Line Skirt</h3>
+                <p>₹1,299 M.R.P: <del>₹2,199</del> (41% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-grid-2">
+            <div class="product-card">
+                <img src="./images/jacket.png" alt="Women's Product 1" style="width: 250px; height: 450px;">
+                <h3>Stylish Women's Winter Jacket</h3>
+                <p>₹2,499 M.R.P: <del>₹4,999</del> (50% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/trouser.png" alt="Women's Product 2" style="width: 250px; height: 450px;">
+                <h3>Comfortable Women's Trousers</h3>
+                <p>₹1,199 M.R.P: <del>₹2,499</del> (52% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/womenhoddies.png" alt="Women's Product 3" style="width: 250px; height: 450px;">
+                <h3>Cozy Women's Hooded Sweatshirt</h3>
+                <p>₹1,099 M.R.P: <del>₹2,199</del> (50% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- kids section -->
+    <section class="kids" id="kidsop">
+        <h2>Kids' Collection</h2>
+        <div class="product-grid">
+            <div class="product-card-2">
+                <img src="./images/kidtshirt.png" alt="Kids' Product 1" style="width: 250px; height: 300px;">
+                <h3>Cool Kids' Graphic T-Shirt</h3>
+                <p>₹699 M.R.P: <del>₹1,299</del> (46% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card-2">
+                <img src="./images/kidsshorts.png" alt="Kids' Product 2" style="width: 250px; height: 300px;">
+                <h3>Comfortable Kids' Shorts</h3>
+                <p>₹499 M.R.P: <del>₹899</del> (44% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card-2">
+                <img src="./images/kidsjacket.png" alt="Kids' Product 3" style="width: 250px; height: 300px;">
+                <h3>Stylish Kids' Jacket</h3>
+                <p>₹1,299 M.R.P: <del>₹2,199</del> (41% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-grid-2">
+            <div class="product-card-2">
+                <img src="./images/prettydress.png" alt="Kids' Product 4" style="width: 250px; height: 300px;">
+                <h3>Pretty Kids' Dress</h3>
+                <p>₹1,199 M.R.P: <del>₹1,999</del> (40% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card-2">
+                <img src="./images/trendykidspants.png" alt="Kids' Product 5" style="width: 250px; height: 300px;">
+                <h3>Trendy Kids' Pants</h3>
+                <p>₹899 M.R.P: <del>₹1,499</del> (40% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card-2">
+                <img src="./images/sweater.png" alt="Kids' Product 6" style="width: 250px; height: 300px;">
+                <h3>Warm Kids' Sweater</h3>
+                <p>₹1,099 M.R.P: <del>₹1,799</del> (39% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="new-arrivals" id="newarrivals">
+        <h2>New Arrivals</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./images/newarrival1.png" alt="New Arrival 1" style="width: 239px; height: 400px;">
+                <h3>White Button</h3>
+                <p>new printed peplum yellow kids palazzo set for girl dress</p>
+                <p>₹1,199 M.R.P: <del>₹1,999</del> (40% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/newarrival2.png" alt="New Arrival 2" style="width: 239px; height: 400px;">
+                <h3>Dream Beauty Fashion</h3>
+                <p>Women's Collared Neck Long Sleeve Slim Fit Casual Tee Top,</p>
+                <p>₹1,299 M.R.P: <del>₹2,199</del> (41% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/arrivalproduct3.png" alt="New Arrival 3" style="width: 250px; height: 400px;">
+                <h3>Xomantic Fashion</h3>
+                <p>Women's Embroiderd Work Navyblue Color Weding Wear</p>
+                <p>₹1,099 M.R.P: <del>₹1,799</del> (39% off)</p>
+                <button class="shop-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
